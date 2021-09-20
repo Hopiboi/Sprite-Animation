@@ -2,12 +2,12 @@ class Background {
     constructor(imagePath, width, height){
         this.image = new Image()
         this.image.src = imagePath
-        this.image.width = width
+        this.image.width = 2500
         this.image.height = height
         this.x1 = 0
         this.x2 = this.image.width
         this.minX = -this.image.width
-        this.speed = 2
+        this.speed = 3
 
     }
 
